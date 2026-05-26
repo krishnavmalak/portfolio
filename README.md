@@ -1,53 +1,73 @@
-# Krishna | Software Engineer & Full-Stack Developer 🚀
+# 👨💻 Software Engineer | Full-Stack Developer | Mobile Apps & Backend Architecture
 
-Welcome to my personal portfolio and developer sandbox! I am a Full-Stack Engineer specializing in mobile applications (React Native/Expo) and robust backend architectures (Laravel/Node.js). 
+**📧 krishnamalak123@gmail.com** | **📱 +91 63639 60861** | **🔗 [LinkedIn](https://www.linkedin.com/in/krishna-malik-84bb31211/)** | **🐙 [GitHub](https://github.com/krishnavmalak)**
 
-I build intelligent systems, integrate Generative AI workflows, and scale high-performance platforms.
+---
 
-## 🌟 Live Demo
+## 🎯 Who I Am
 
-**[Add your Vercel/Cloudflare URL here once deployed]**
+I'm a Full-Stack Engineer with over 4 years of experience architecting scalable systems and leading mobile-first product innovation. I specialize in bridging high-performance frontend interfaces with robust, data-driven backend architectures. 
 
-## 🛠️ Tech Stack
+**Currently:** Driving mobile and backend development at **EldersIndia**, where I lead technical integrations and build secure REST APIs with Laravel. Outside of my primary role, I engineer independent AI-powered workflows—such as the OCR record extraction pipeline for KrishiVikas—delivering measurable business impact through intelligent automation.
 
-This portfolio is built with modern, bleeding-edge web technologies:
-- **Framework:** [Next.js 15](https://nextjs.org) (App Router)
-- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
-- **Animations:** [Framer Motion](https://www.framer.com/motion/)
-- **Components:** [Shadcn UI](https://ui.shadcn.com/)
-- **Icons:** [Lucide React](https://lucide.dev/)
-- **Deployment:** Vercel / Cloudflare Pages
+---
 
-## 🚀 Key Highlights
+## 💼 What I Do
 
-- **High Performance:** Optimized for lightning-fast loads using Next.js Server Components.
-- **Modern Aesthetic:** Clean, dynamic, minimal UI inspired by top engineering portfolios.
-- **Interactive:** Smooth Framer Motion transitions and custom IntersectionObserver scroll spying.
-- **Fully Responsive:** Flawless experience across mobile, tablet, and ultrawide desktop monitors.
+**📱 Mobile & Cross-Platform Development**
+- Architect and deploy scalable React Native and Expo applications
+- Build beautiful, performant UI/UX with modern Tailwind CSS and Framer Motion
+- Implement complex features like Razorpay payment gateways and Learning Management Systems (LMS)
 
-## 💻 Running Locally
+**🏗️ Backend Architecture & Scale**
+- Design robust, secure REST APIs using Laravel and Node.js
+- Optimize complex database queries for MySQL and high-performance search engines like Meilisearch
+- Ensure data integrity and seamless real-time WebSocket communications
 
-If you'd like to clone this repository and run it locally:
+**🧠 AI Integration & Workflows**
+- Engineer high-performance data extraction pipelines using Gemini, Qwen-VL, and OCR technologies
+- Enhance applications with RAG workflows and custom LLM integrations via OpenAI and Claude APIs
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/krishnavmalak/portfolio.git
-cd portfolio
+---
 
-# 2. Install dependencies
-npm install
+## 🛠️ Core Expertise
 
-# 3. Start the development server
-npm run dev
-```
+**Frontend & Mobile**
+React Native • React.js • Vue.js • Redux Toolkit • Expo Router • Tailwind CSS v4 • Framer Motion
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Backend & Databases**
+Laravel • Node.js • MySQL • SQLite • Meilisearch • RESTful APIs • WebSockets
+
+**AI Workflows & Integration**
+OpenAI API • Claude AI • OpenRouter • OCR Data Extraction • Prompt Engineering • RAG Workflows • Gemini • Qwen-VL
+
+**Tools & Infrastructure**
+Git & GitHub • Razorpay Integration • Firebase • Next.js (App Router) • Vercel
+
+---
+
+## 🚀 Select Achievements
+
+✨ **AI-Powered OCR Pipeline** — Engineered a high-performance extraction pipeline for KrishiVikas using Gemini and Qwen-VL to accurately read handwritten dairy ledgers and convert them directly into structured relational databases.
+
+🏗️ **Enterprise Mobile Platforms** — Architected and deployed scalable React Native applications serving thousands of active users, featuring seamless payment gateways and LMS.
+
+⚡ **High-Performance Backends** — Designed robust Laravel REST APIs and successfully improved Meilisearch indexing latency from 1200ms to 200ms—a massive 6× performance boost.
+
+---
 
 ## 🤝 Let's Connect
 
-- **Email:** krishnamalak123@gmail.com
-- **LinkedIn:** [Krishna Malik](https://www.linkedin.com/in/krishna-malik-84bb31211/)
-- **GitHub:** [@krishnavmalak](https://github.com/krishnavmalak)
+I'm passionate about solving hard problems at the intersection of mobile-first engineering, scalable backends, and AI integrations. Whether you're building a cross-platform mobile app, needing a robust backend architecture, or exploring GenAI workflows—I'd love to collaborate.
+
+**Open to:**
+- Mobile App Development (React Native/Expo)
+- Full-Stack Architecture & Backend Engineering
+- AI Integrations (OCR, RAG, LLMs)
+- Technical Mentorship & Collaboration
 
 ---
-*Designed and built with ❤️ by Krishna.*
+
+*Building the future with mobile & AI-powered development* 🚀📱
+
+**AI-Assisted Tools I Code With:** Claude Code • Cursor AI • GitHub Copilot • OpenAI Codex • AntiGravity • Opencode
