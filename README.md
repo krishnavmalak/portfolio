@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Krishna | Software Engineer & Full-Stack Developer 🚀
 
-## Getting Started
+Welcome to my personal portfolio and developer sandbox! I am a Full-Stack Engineer specializing in mobile applications (React Native/Expo) and robust backend architectures (Laravel/Node.js). 
 
-First, run the development server:
+I build intelligent systems, integrate Generative AI workflows, and scale high-performance platforms.
+
+## 🌟 Live Demo
+
+**[Add your Vercel/Cloudflare URL here once deployed]**
+
+## 🛠️ Tech Stack
+
+This portfolio is built with modern, bleeding-edge web technologies:
+- **Framework:** [Next.js 15](https://nextjs.org) (App Router)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Components:** [Shadcn UI](https://ui.shadcn.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Deployment:** Vercel / Cloudflare Pages
+
+## 🚀 Key Highlights
+
+- **High Performance:** Optimized for lightning-fast loads using Next.js Server Components.
+- **Modern Aesthetic:** Clean, dynamic, minimal UI inspired by top engineering portfolios.
+- **Interactive:** Smooth Framer Motion transitions and custom IntersectionObserver scroll spying.
+- **Fully Responsive:** Flawless experience across mobile, tablet, and ultrawide desktop monitors.
+
+## 💻 Running Locally
+
+If you'd like to clone this repository and run it locally:
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/krishnavmalak/portfolio.git
+cd portfolio
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🤝 Let's Connect
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Email:** krishnamalak123@gmail.com
+- **LinkedIn:** [Krishna Malik](https://www.linkedin.com/in/krishna-malik-84bb31211/)
+- **GitHub:** [@krishnavmalak](https://github.com/krishnavmalak)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Designed and built with ❤️ by Krishna.*
