@@ -8,7 +8,7 @@
 
 I'm a Full-Stack Engineer with over 4 years of experience architecting scalable systems and leading mobile-first product innovation. I specialize in bridging high-performance frontend interfaces with robust, data-driven backend architectures. 
 
-**Currently:** Driving mobile and backend development at **EldersIndia**, where I lead technical integrations and build secure REST APIs with Laravel. Outside of my primary role, I engineer independent AI-powered workflows—such as the OCR record extraction pipeline for KrishiVikas—delivering measurable business impact through intelligent automation.
+**Currently:** Driving mobile and backend development at **Tharsha Wealth Pvt Ltd** (fintech/wealth management), where I architect production React Native applications and secure REST APIs with Laravel. Outside of my primary role, I engineer independent AI-powered workflows—such as the OCR record extraction pipeline for Krisivikas—delivering measurable business impact through intelligent automation.
 
 ---
 

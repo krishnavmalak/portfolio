@@ -22,10 +22,10 @@ export function Hero() {
               Hi, I'm Krishna
             </h1>
             <h2 className="text-xl md:text-2xl font-semibold text-slate-700">
-              Software Engineer | Full-Stack Developer
+              React Native Engineer | Full-Stack Mobile & Backend Developer
             </h2>
             <p className="text-lg text-slate-500 max-w-xl">
-              I build intelligent systems and scalable mobile platforms using cutting-edge technologies. Specializing in cross-platform applications, GenAI integrations, and robust Laravel backends with 4+ years of experience.
+              I build intelligent systems and scalable mobile platforms using cutting-edge technologies. Specializing in production-grade React Native apps, GenAI integrations, secure Laravel backends, and Firebase infrastructure with 4+ years of fintech expertise.
             </p>
           </div>
           

@@ -8,22 +8,32 @@ const skillCategories = [
   {
     id: "frontend",
     title: "Frontend & Mobile",
-    items: ["React Native", "React.js", "Vue.js", "Redux Toolkit", "Expo Router", "Tailwind CSS"]
+    items: ["React Native", "React.js", "TypeScript", "Redux Toolkit", "Zustand", "Context API", "Expo Router", "Deep Linking", "Tailwind CSS", "Async Storage"]
   },
   {
     id: "backend",
-    title: "Backend & DB",
-    items: ["Laravel", "Node.js", "MySQL", "SQLite", "Meilisearch", "RESTful APIs", "WebSockets"]
+    title: "Backend & Database",
+    items: ["Laravel", "PHP", "Node.js", "JWT Authentication", "MySQL", "SQLite", "Meilisearch", "RESTful APIs", "WebSockets"]
+  },
+  {
+    id: "firebase",
+    title: "Firebase & Cloud",
+    items: ["Firebase Auth", "Cloud Firestore", "Firebase Storage", "Cloud Messaging (FCM)", "Push Notifications"]
   },
   {
     id: "ai",
-    title: "AI Workflows",
-    items: ["OpenAI API", "Claude AI", "OpenRouter", "OCR Data Extraction", "RAG Workflows"]
+    title: "AI & Automation",
+    items: ["GenAI Integration", "OpenAI API", "Claude AI", "Gemini Vision", "OCR Data Extraction", "RAG Workflows", "LLMs"]
   },
   {
     id: "integrations",
-    title: "Integrations & Tools",
-    items: ["Razorpay", "Firebase", "Git & GitHub"]
+    title: "Payments & Integrations",
+    items: ["Razorpay", "SMS Integration", "Email Integration", "Git & GitHub", "GitHub Actions"]
+  },
+  {
+    id: "devops",
+    title: "DevOps & Deployment",
+    items: ["Google Play Console", "App Store Connect", "Cloudflare Pages", "Cloudflare DNS", "Release Cycle Management"]
   }
 ];
 
