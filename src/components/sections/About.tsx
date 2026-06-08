@@ -11,7 +11,7 @@ export function About() {
     {
       icon: <Server className="w-8 h-8 text-accent" />,
       title: "Scalable Backends",
-      description: "Architecting high-performance APIs and databases using Laravel and MySQL."
+      description: "Architecting high-performance APIs and databases using Laravel, MySQL, and NoSQL."
     },
     {
       icon: <Zap className="w-8 h-8 text-yellow-500" />,

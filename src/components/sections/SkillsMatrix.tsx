@@ -13,7 +13,7 @@ const skillCategories = [
   {
     id: "backend",
     title: "Backend & Database",
-    items: ["Laravel", "PHP", "Node.js", "JWT & Sanctum Auth", "MySQL", "SQLite", "Meilisearch", "RESTful APIs", "WebSockets"]
+    items: ["Laravel", "PHP", "Node.js", "JWT & Sanctum Auth", "MySQL", "NoSQL", "SQLite", "Meilisearch", "RESTful APIs", "WebSockets"]
   },
   {
     id: "firebase",
