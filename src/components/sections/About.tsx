@@ -50,7 +50,7 @@ export function About() {
               I'm a React Native Engineer with 4+ years of production experience architecting scalable mobile platforms and backend systems. I specialize in shipping high-performance iOS and Android applications, with deep expertise in fintech, secure API design, and Firebase infrastructure.
             </p>
             <p>
-              Currently leading mobile and backend development for the EldersIndia application, where I architect production React Native applications serving thousands of active users and design secure Laravel REST APIs with Sanctum authentication. I've delivered measurable impact: 6x search performance improvements (1200ms to 200ms via Meilisearch optimization), integrated Razorpay payment gateways, implemented Firebase Cloud Messaging for real-time features, and managed full release cycles across Google Play Console and App Store Connect.
+              Currently leading mobile and backend development for the EldersIndia application, where I architect production React Native applications serving thousands of active users and design secure Laravel REST APIs with JWT and Sanctum authentication. I've delivered measurable impact: 6x search performance improvements (1200ms to 200ms via Meilisearch optimization), integrated Razorpay payment gateways, implemented Firebase Cloud Messaging for real-time features, and managed full release cycles across Google Play Console and App Store Connect.
             </p>
             <p>
               Beyond core engineering, I build AI-powered automation workflows—such as OCR record extraction pipelines using Gemini Vision and Qwen-VL—demonstrating full-stack capability from frontend UX to backend infrastructure and intelligent data processing.
