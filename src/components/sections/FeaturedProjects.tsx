@@ -5,7 +5,7 @@ import { ArrowUpRight, Code2, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "Tharsha Wealth - Enterprise App",
+    title: "EldersIndia - Enterprise App",
     description: "Built for thousands of active users, deployed to both App Store and Play Store. Features robust Razorpay integration and configured live push notification workflows.",
     tech: ["React Native", "Laravel", "MySQL", "Razorpay"],
     image: "bg-gradient-to-br from-primary/20 to-blue-900/40",
