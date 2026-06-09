@@ -24,28 +24,28 @@ export function About() {
     <section id="about" className="pt-12 pb-12 bg-card/30 relative">
       <div className="container px-4 mx-auto max-w-6xl">
         <div className="mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 text-slate-900 tracking-tight">Building Scalable Solutions</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 text-foreground tracking-tight">Building Scalable Solutions</h2>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10 pb-10 border-b border-slate-200">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10 pb-10 border-b border-border">
             <div>
               <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">4+</div>
-              <div className="text-sm text-slate-500 font-medium mt-1 uppercase tracking-wider">Years Exp</div>
+              <div className="text-sm text-muted-foreground font-medium mt-1 uppercase tracking-wider">Years Exp</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">10k+</div>
-              <div className="text-sm text-slate-500 font-medium mt-1 uppercase tracking-wider">Users Reached</div>
+              <div className="text-sm text-muted-foreground font-medium mt-1 uppercase tracking-wider">Users Reached</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">6x</div>
-              <div className="text-sm text-slate-500 font-medium mt-1 uppercase tracking-wider">Perf Boost</div>
+              <div className="text-sm text-muted-foreground font-medium mt-1 uppercase tracking-wider">Perf Boost</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">100%</div>
-              <div className="text-sm text-slate-500 font-medium mt-1 uppercase tracking-wider">Delivery</div>
+              <div className="text-sm text-muted-foreground font-medium mt-1 uppercase tracking-wider">Delivery</div>
             </div>
           </div>
 
-          <div className="text-lg text-slate-600 max-w-3xl leading-relaxed space-y-4">
+          <div className="text-lg text-muted-foreground max-w-3xl leading-relaxed space-y-4">
             <p>
               I'm a React Native Engineer with 4+ years of production experience architecting scalable mobile platforms and backend systems. I specialize in shipping high-performance iOS and Android applications, with deep expertise in fintech, secure API design, and Firebase infrastructure.
             </p>

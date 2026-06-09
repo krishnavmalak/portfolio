@@ -58,14 +58,14 @@ const achievements = [
 
 export function KeyAchievements() {
   return (
-    <section id="work" className="pt-12 pb-12 bg-slate-50">
+    <section id="work" className="pt-12 pb-12 bg-muted/30 dark:bg-muted/10">
       <div className="container px-4 mx-auto max-w-5xl">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center px-4 py-1.5 mb-4 rounded-full bg-indigo-50 text-indigo-600 font-medium text-sm tracking-wide">
+          <div className="inline-flex items-center justify-center px-4 py-1.5 mb-4 rounded-full bg-primary/10 text-primary font-medium text-sm tracking-wide">
             ACHIEVEMENTS
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-slate-900 tracking-tight">Key Achievements</h2>
-          <p className="text-slate-500 max-w-2xl mx-auto text-lg">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-foreground tracking-tight">Key Achievements</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             Impact-driven engineering delivering intelligent automation, performance, and scale.
           </p>
         </div>
@@ -78,22 +78,22 @@ export function KeyAchievements() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
-              className={`p-8 bg-white rounded-2xl border ${index === 0 ? 'border-purple-200 shadow-purple-500/10 shadow-xl md:col-span-2' : 'border-slate-200 shadow-sm'} hover:shadow-lg transition-all duration-300 group flex flex-col`}
+              className={`p-8 bg-card rounded-2xl border ${index === 0 ? 'border-primary/20 shadow-primary/10 shadow-xl md:col-span-2' : 'border-border shadow-sm'} hover:shadow-lg transition-all duration-300 group flex flex-col dark:bg-slate-900 dark:border-slate-700`}
             >
               <div className="flex items-center gap-4 mb-5">
                 <div className={`w-12 h-12 rounded-full ${item.bgColor} ${item.color} flex items-center justify-center group-hover:scale-110 transition-transform`}>
                   {item.icon}
                 </div>
-                <h3 className="text-xl md:text-2xl font-bold text-slate-800">{item.title}</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-foreground">{item.title}</h3>
               </div>
 
-              <p className="text-slate-600 leading-relaxed mb-6 flex-grow text-lg">
+              <p className="text-muted-foreground leading-relaxed mb-6 flex-grow text-lg">
                 {item.description}
               </p>
 
-              <div className="flex flex-wrap gap-2 mt-auto pt-4 border-t border-slate-100">
+              <div className="flex flex-wrap gap-2 mt-auto pt-4 border-t border-border">
                 {item.tags.map((tag) => (
-                  <Badge key={tag} variant="secondary" className="bg-slate-50 text-slate-600 border border-slate-100 font-medium px-3 py-1">
+                  <Badge key={tag} variant="secondary" className="bg-muted text-muted-foreground border border-border font-medium px-3 py-1">
                     {tag}
                   </Badge>
                 ))}

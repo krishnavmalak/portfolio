@@ -45,8 +45,8 @@ export function SkillsMatrix() {
           <div className="inline-flex items-center justify-center px-4 py-1.5 mb-4 rounded-full bg-indigo-50 text-indigo-600 font-medium text-sm tracking-wide">
             SKILLS & TECHNOLOGIES
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-slate-900 tracking-tight">Technical Arsenal</h2>
-          <p className="text-slate-500 max-w-2xl mx-auto text-lg">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-foreground tracking-tight">Technical Arsenal</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             A comprehensive overview of the tools and technologies I use to build scalable, high-performance applications.
           </p>
         </div>
@@ -58,9 +58,9 @@ export function SkillsMatrix() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: index * 0.1 }}
-              className={`bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-center`}
+              className={`bg-card rounded-2xl p-8 border border-border shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-center dark:bg-slate-900 dark:border-slate-700`}
             >
-              <h3 className="text-xl font-bold mb-6 text-slate-800 flex items-center gap-2">
+              <h3 className="text-xl font-bold mb-6 text-foreground flex items-center gap-2">
                 {category.title}
               </h3>
 
@@ -69,7 +69,7 @@ export function SkillsMatrix() {
                   <Badge
                     key={skill}
                     variant="secondary"
-                    className={`text-sm py-1.5 px-4 font-medium transition-colors bg-slate-50 text-slate-600 hover:bg-slate-100 border border-slate-100`}
+                    className={`text-sm py-1.5 px-4 font-medium transition-colors bg-muted text-muted-foreground hover:bg-muted/80 border border-border`}
                   >
                     {skill}
                   </Badge>
@@ -81,10 +81,10 @@ export function SkillsMatrix() {
 
         <div className="mt-16 max-w-6xl mx-auto bg-gradient-to-br from-indigo-500/5 to-pink-500/5 rounded-3xl border-2 border-indigo-500/10 p-8 md:p-12">
           <div className="mb-12 flex flex-col items-center justify-center text-center">
-            <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3 flex items-center gap-2">
               <span className="text-3xl">🚀</span> AI-Assisted Development Tools
             </h3>
-            <p className="text-slate-500 text-lg">Leveraging cutting-edge AI coding assistants for 10x productivity</p>
+            <p className="text-muted-foreground text-lg">Leveraging cutting-edge AI coding assistants for 10x productivity</p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
@@ -101,11 +101,11 @@ export function SkillsMatrix() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.3, delay: 0.2 + idx * 0.1 }}
-                className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-indigo-500 transition-all duration-300 ease-out flex flex-col items-center text-center group"
+                className="bg-card rounded-2xl p-6 border border-border shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-primary transition-all duration-300 ease-out flex flex-col items-center text-center group dark:bg-slate-900 dark:border-slate-700"
               >
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">{tool.icon}</div>
-                <h4 className="text-base font-bold text-slate-900 mb-2">{tool.title}</h4>
-                <p className="text-sm text-slate-500 leading-tight">{tool.description}</p>
+                <h4 className="text-base font-bold text-foreground mb-2">{tool.title}</h4>
+                <p className="text-sm text-muted-foreground leading-tight">{tool.description}</p>
               </motion.div>
             ))}
           </div>

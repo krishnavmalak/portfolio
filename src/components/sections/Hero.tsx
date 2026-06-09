@@ -21,22 +21,22 @@ export function Hero() {
             <h1 className="text-5xl md:text-7xl font-bold leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-primary via-purple-500 to-pink-500 pb-2">
               Hi, I'm Krishna
             </h1>
-            <h2 className="text-xl md:text-2xl font-semibold text-slate-700">
+            <h2 className="text-xl md:text-2xl font-semibold text-muted-foreground">
               React Native Engineer | Full-Stack Mobile & Backend Developer
             </h2>
-            <p className="text-lg text-slate-500 max-w-xl">
+            <p className="text-lg text-muted-foreground max-w-xl">
               I build intelligent systems and scalable mobile platforms using cutting-edge technologies. Specializing in production-grade React Native apps, GenAI integrations, secure Laravel backends, and Firebase infrastructure with 4+ years of fintech expertise.
             </p>
           </div>
           
           <div className="flex flex-wrap gap-4">
             <a href="#contact">
-              <Button size="lg" className="bg-slate-900 text-white hover:bg-slate-800 font-medium transition-all duration-300 rounded-full px-8">
+              <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 font-medium transition-all duration-300 rounded-full px-8">
                 Let's Connect <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </a>
             <a href="#about">
-              <Button size="lg" variant="outline" className="font-medium transition-all duration-300 rounded-full px-8 border-slate-200 hover:bg-slate-50 text-slate-700">
+              <Button size="lg" variant="outline" className="font-medium transition-all duration-300 rounded-full px-8 border-border hover:bg-muted text-foreground">
                 Learn More
               </Button>
             </a>
@@ -53,15 +53,15 @@ export function Hero() {
           <motion.div 
             animate={{ y: [0, -10, 0] }} 
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-            className="bg-white p-6 rounded-2xl shadow-xl shadow-primary/5 border border-slate-100 w-72 transform -rotate-6 translate-x-12 z-20"
+            className="bg-card p-6 rounded-2xl shadow-xl shadow-primary/5 border border-border w-72 transform -rotate-6 translate-x-12 z-20 dark:bg-slate-900 dark:border-slate-700"
           >
             <div className="flex items-center gap-4 mb-3">
-              <div className="w-12 h-12 rounded-full bg-blue-50 text-blue-500 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center">
                 <Smartphone className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-800">Mobile Apps</h3>
-                <p className="text-xs text-slate-500">React Native & Expo</p>
+                <h3 className="font-bold text-foreground">Mobile Apps</h3>
+                <p className="text-xs text-muted-foreground">React Native & Expo</p>
               </div>
             </div>
           </motion.div>
@@ -69,15 +69,15 @@ export function Hero() {
           <motion.div 
             animate={{ y: [0, 15, 0] }} 
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-            className="bg-white p-6 rounded-2xl shadow-xl shadow-purple-500/5 border border-slate-100 w-72 transform rotate-3 -translate-x-12 z-10"
+            className="bg-card p-6 rounded-2xl shadow-xl shadow-purple-500/5 border border-border w-72 transform rotate-3 -translate-x-12 z-10 dark:bg-slate-900 dark:border-slate-700"
           >
             <div className="flex items-center gap-4 mb-3">
-              <div className="w-12 h-12 rounded-full bg-purple-50 text-purple-500 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-accent/10 text-accent flex items-center justify-center">
                 <Terminal className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-800">Scalable Backends</h3>
-                <p className="text-xs text-slate-500">Laravel, Node.js, MySQL</p>
+                <h3 className="font-bold text-foreground">Scalable Backends</h3>
+                <p className="text-xs text-muted-foreground">Laravel, Node.js, MySQL</p>
               </div>
             </div>
           </motion.div>
@@ -85,10 +85,10 @@ export function Hero() {
           <motion.div 
             animate={{ y: [0, -8, 0] }} 
             transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 2 }}
-            className="bg-white p-6 rounded-2xl shadow-xl shadow-emerald-500/5 border border-slate-100 w-72 transform -rotate-2 translate-x-8 z-30"
+            className="bg-card p-6 rounded-2xl shadow-xl shadow-primary/5 border border-border w-72 transform -rotate-2 translate-x-8 z-30 dark:bg-slate-900 dark:border-slate-700"
           >
             <div className="flex items-center gap-4 mb-3">
-              <div className="w-12 h-12 rounded-full bg-emerald-50 text-emerald-500 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center">
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>

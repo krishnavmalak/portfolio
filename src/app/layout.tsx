@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Fira_Code } from "next/font/google";
+import { ThemeProvider } from "@/provider/ThemeProvider";
 import "./globals.css";
 
 const inter = Inter({
@@ -26,8 +27,13 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${inter.variable} ${firaCode.variable} antialiased h-full`}
+      suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col font-sans">{children}</body>
+      <body className="min-h-full flex flex-col font-sans">
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
