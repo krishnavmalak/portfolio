@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     template: "%s | Krishna's Portfolio",
   },
   description: "Portfolio of Krishna, a React Native Developer & Software Engineer specializing in cross-platform applications, GenAI integrations, and scalable architectures.",
+  keywords: ["krishna malak", "krishna malik", "krishna", "Software Engineer", "React Native Developer", "Full-Stack Developer"],
   openGraph: {
     title: "Krishna | Software Engineer & Full-Stack Developer",
     description: "Portfolio of Krishna, a React Native Developer & Software Engineer specializing in cross-platform applications, GenAI integrations, and scalable architectures.",
