@@ -14,8 +14,36 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "Krishna | Software Engineer & Full-Stack Developer",
+  metadataBase: new URL("https://krishnavmalak.github.io"),
+  title: {
+    default: "Krishna | Software Engineer & Full-Stack Developer",
+    template: "%s | Krishna's Portfolio",
+  },
   description: "Portfolio of Krishna, a React Native Developer & Software Engineer specializing in cross-platform applications, GenAI integrations, and scalable architectures.",
+  openGraph: {
+    title: "Krishna | Software Engineer & Full-Stack Developer",
+    description: "Portfolio of Krishna, a React Native Developer & Software Engineer specializing in cross-platform applications, GenAI integrations, and scalable architectures.",
+    url: "/",
+    siteName: "Krishna's Portfolio",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Krishna | Software Engineer & Full-Stack Developer",
+    description: "Portfolio of Krishna, a React Native Developer & Software Engineer specializing in cross-platform applications, GenAI integrations, and scalable architectures.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
