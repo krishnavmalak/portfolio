@@ -66,13 +66,14 @@ export function SkillsMatrix() {
 
               <div className="flex flex-wrap gap-2.5">
                 {category.items.map((skill) => (
-                  <Badge
-                    key={skill}
-                    variant="secondary"
-                    className={`text-sm py-1.5 px-4 font-medium transition-colors bg-muted text-muted-foreground hover:bg-muted/80 border border-border`}
-                  >
-                    {skill}
-                  </Badge>
+                  <motion.div key={skill} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                    <Badge
+                      variant="secondary"
+                      className={`text-sm py-1.5 px-4 font-medium transition-colors bg-muted text-muted-foreground hover:bg-muted/80 border border-border`}
+                    >
+                      {skill}
+                    </Badge>
+                  </motion.div>
                 ))}
               </div>
             </motion.div>
@@ -99,7 +100,8 @@ export function SkillsMatrix() {
               <motion.div
                 key={tool.title}
                 initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.3, delay: 0.2 + idx * 0.1 }}
                 className="bg-card rounded-2xl p-6 border border-border shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-primary transition-all duration-300 ease-out flex flex-col items-center text-center group dark:bg-slate-900 dark:border-slate-700"
               >

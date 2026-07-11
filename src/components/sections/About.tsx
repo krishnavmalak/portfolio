@@ -1,3 +1,4 @@
+"use client";
 import { motion } from "framer-motion";
 import { Code, Server, Zap } from "lucide-react";
 
@@ -27,22 +28,22 @@ export function About() {
           <h2 className="text-3xl md:text-5xl font-bold mb-8 text-foreground tracking-tight">Building Scalable Solutions</h2>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10 pb-10 border-b border-border">
-            <div>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.1 }}>
               <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">4+</div>
               <div className="text-sm text-muted-foreground font-medium mt-1 uppercase tracking-wider">Years Exp</div>
-            </div>
-            <div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }}>
               <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">10k+</div>
               <div className="text-sm text-muted-foreground font-medium mt-1 uppercase tracking-wider">Users Reached</div>
-            </div>
-            <div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.3 }}>
               <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">6x</div>
               <div className="text-sm text-muted-foreground font-medium mt-1 uppercase tracking-wider">Perf Boost</div>
-            </div>
-            <div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.4 }}>
               <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">100%</div>
               <div className="text-sm text-muted-foreground font-medium mt-1 uppercase tracking-wider">Delivery</div>
-            </div>
+            </motion.div>
           </div>
 
           <div className="text-lg text-muted-foreground max-w-3xl leading-relaxed space-y-4">
@@ -61,8 +62,12 @@ export function About() {
 
         <div className="grid md:grid-cols-3 gap-8 mb-20">
           {cards.map((card, idx) => (
-            <div
+            <motion.div
               key={idx}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: idx * 0.1 }}
               className="group p-8 rounded-2xl bg-card border border-border/50 shadow-sm hover:shadow-xl hover:-translate-y-1 hover:bg-gradient-to-br hover:from-card hover:to-primary/5 transition-all duration-300"
             >
               <div className="mb-6 inline-flex p-3 rounded-xl bg-background/50 border border-border/50 group-hover:scale-110 transition-transform duration-300">
@@ -70,41 +75,48 @@ export function About() {
               </div>
               <h3 className="text-xl font-bold mb-3">{card.title}</h3>
               <p className="text-muted-foreground">{card.description}</p>
-            </div>
+            </motion.div>
           ))}
         </div>
 
         <div className="space-y-8">
-          <h2 className="text-2xl md:text-3xl font-bold border-b border-border/50 pb-4">Key Achievements</h2>
+          <motion.h2 
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="text-2xl md:text-3xl font-bold border-b border-border/50 pb-4"
+          >
+            Key Achievements
+          </motion.h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="space-y-2">
+            <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="space-y-2">
               <h3 className="text-lg font-bold text-foreground flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
                 Search Performance Optimization
               </h3>
               <p className="text-muted-foreground ml-3.5">Optimized Meilisearch indexing architecture, dramatically reducing global search latency by 6× (from 1200ms down to a blazing 200ms).</p>
-            </div>
-            <div className="space-y-2">
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.2 }} className="space-y-2">
               <h3 className="text-lg font-bold text-foreground flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
                 Scalable Enterprise Platforms
               </h3>
               <p className="text-muted-foreground ml-3.5">Architected and maintained robust full-stack applications serving thousands of active users seamlessly across iOS, Android, and web.</p>
-            </div>
-            <div className="space-y-2">
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.3 }} className="space-y-2">
               <h3 className="text-lg font-bold text-foreground flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
                 Intelligent Integrations
               </h3>
               <p className="text-muted-foreground ml-3.5">Successfully integrated secure payment gateways (Razorpay), real-time communications (WebSockets/WebRTC), and complex push notification systems.</p>
-            </div>
-            <div className="space-y-2">
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.4 }} className="space-y-2">
               <h3 className="text-lg font-bold text-foreground flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
                 AI Workflows & Automation
               </h3>
               <p className="text-muted-foreground ml-3.5">Engineered prompt pipelines and OCR data extraction workflows, leveraging LLMs to automate internal business processes.</p>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

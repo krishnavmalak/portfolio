@@ -30,16 +30,16 @@ export function Hero() {
           </div>
           
           <div className="flex flex-wrap gap-4">
-            <a href="#contact">
+            <motion.a href="#contact" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 font-medium transition-all duration-300 rounded-full px-8">
                 Let's Connect <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-            </a>
-            <a href="#about">
+            </motion.a>
+            <motion.a href="#about" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button size="lg" variant="outline" className="font-medium transition-all duration-300 rounded-full px-8 border-border hover:bg-muted text-foreground">
                 Learn More
               </Button>
-            </a>
+            </motion.a>
           </div>
         </motion.div>
 
@@ -52,6 +52,7 @@ export function Hero() {
           {/* Floating cards representing skills */}
           <motion.div 
             animate={{ y: [0, -10, 0] }} 
+            whileHover={{ scale: 1.05, rotate: 0, zIndex: 50 }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
             className="bg-card p-6 rounded-2xl shadow-xl shadow-primary/5 border border-border w-72 transform -rotate-6 translate-x-12 z-20 dark:bg-slate-900 dark:border-slate-700"
           >
@@ -68,6 +69,7 @@ export function Hero() {
 
           <motion.div 
             animate={{ y: [0, 15, 0] }} 
+            whileHover={{ scale: 1.05, rotate: 0, zIndex: 50 }}
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1 }}
             className="bg-card p-6 rounded-2xl shadow-xl shadow-purple-500/5 border border-border w-72 transform rotate-3 -translate-x-12 z-10 dark:bg-slate-900 dark:border-slate-700"
           >
@@ -84,6 +86,7 @@ export function Hero() {
           
           <motion.div 
             animate={{ y: [0, -8, 0] }} 
+            whileHover={{ scale: 1.05, rotate: 0, zIndex: 50 }}
             transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 2 }}
             className="bg-card p-6 rounded-2xl shadow-xl shadow-primary/5 border border-border w-72 transform -rotate-2 translate-x-8 z-30 dark:bg-slate-900 dark:border-slate-700"
           >

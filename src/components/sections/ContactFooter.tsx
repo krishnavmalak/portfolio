@@ -1,4 +1,6 @@
+"use client";
 import { MapPin, Mail, Phone } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function ContactFooter() {
   const navLinks = [
@@ -23,7 +25,15 @@ export function ContactFooter() {
         </div>
 
         <div className="flex flex-col w-full gap-4">
-          <a href="mailto:krishnamalak123@gmail.com" className="flex items-center p-6 bg-card rounded-2xl border border-border hover:border-primary/20 hover:shadow-md transition-all duration-300 w-full text-left dark:bg-slate-900 dark:border-slate-700">
+          <motion.a 
+            href="mailto:krishnamalak123@gmail.com" 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            whileHover={{ scale: 1.02, x: 5 }}
+            className="flex items-center p-6 bg-card rounded-2xl border border-border hover:border-primary/20 hover:shadow-md transition-all duration-300 w-full text-left dark:bg-slate-900 dark:border-slate-700"
+          >
             <div className="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mr-6 shrink-0">
               <Mail className="w-5 h-5" />
             </div>
@@ -31,9 +41,17 @@ export function ContactFooter() {
               <div className="text-sm text-muted-foreground font-medium mb-1">Email</div>
               <div className="font-semibold text-foreground text-lg">krishnamalak123@gmail.com</div>
             </div>
-          </a>
+          </motion.a>
 
-          <a href="tel:+916363960861" className="flex items-center p-6 bg-card rounded-2xl border border-border hover:border-primary/20 hover:shadow-md transition-all duration-300 w-full text-left dark:bg-slate-900 dark:border-slate-700">
+          <motion.a 
+            href="tel:+916363960861" 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            whileHover={{ scale: 1.02, x: 5 }}
+            className="flex items-center p-6 bg-card rounded-2xl border border-border hover:border-primary/20 hover:shadow-md transition-all duration-300 w-full text-left dark:bg-slate-900 dark:border-slate-700"
+          >
             <div className="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mr-6 shrink-0">
               <Phone className="w-5 h-5" />
             </div>
@@ -41,9 +59,16 @@ export function ContactFooter() {
               <div className="text-sm text-muted-foreground font-medium mb-1">Phone</div>
               <div className="font-semibold text-foreground text-lg">+91 6363960861</div>
             </div>
-          </a>
+          </motion.a>
 
-          <div className="flex items-center p-6 bg-card rounded-2xl border border-border hover:border-primary/20 hover:shadow-md transition-all duration-300 w-full text-left dark:bg-slate-900 dark:border-slate-700">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            whileHover={{ scale: 1.02, x: 5 }}
+            className="flex items-center p-6 bg-card rounded-2xl border border-border hover:border-primary/20 hover:shadow-md transition-all duration-300 w-full text-left dark:bg-slate-900 dark:border-slate-700"
+          >
             <div className="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mr-6 shrink-0">
               <MapPin className="w-5 h-5" />
             </div>
@@ -51,16 +76,30 @@ export function ContactFooter() {
               <div className="text-sm text-muted-foreground font-medium mb-1">Location</div>
               <div className="font-semibold text-foreground text-lg">Bengaluru, India</div>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         <div className="flex items-center justify-center gap-4 mt-4">
-          <a href="https://github.com/krishnavmalak" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-xl bg-card border border-border text-muted-foreground flex items-center justify-center hover:text-primary hover:border-primary/20 transition-colors shadow-sm dark:bg-slate-900 dark:border-slate-700">
+          <motion.a 
+            href="https://github.com/krishnavmalak" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            whileHover={{ y: -5, scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            className="w-12 h-12 rounded-xl bg-card border border-border text-muted-foreground flex items-center justify-center hover:text-primary hover:border-primary/20 transition-colors shadow-sm dark:bg-slate-900 dark:border-slate-700"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" /><path d="M9 18c-4.51 2-5-2-7-2" /></svg>
-          </a>
-          <a href="https://www.linkedin.com/in/krishna-malik-84bb31211/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-xl bg-card border border-border text-muted-foreground flex items-center justify-center hover:text-primary hover:border-primary/20 transition-colors shadow-sm dark:bg-slate-900 dark:border-slate-700">
+          </motion.a>
+          <motion.a 
+            href="https://www.linkedin.com/in/krishna-malik-84bb31211/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            whileHover={{ y: -5, scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            className="w-12 h-12 rounded-xl bg-card border border-border text-muted-foreground flex items-center justify-center hover:text-primary hover:border-primary/20 transition-colors shadow-sm dark:bg-slate-900 dark:border-slate-700"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
-          </a>
+          </motion.a>
         </div>
       </div>
 
