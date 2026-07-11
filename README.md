@@ -8,8 +8,7 @@
 
 I'm a Full-Stack Engineer with over 4 years of experience architecting scalable systems and leading mobile-first product innovation. I specialize in bridging high-performance frontend interfaces with robust, data-driven backend architectures. 
 
-**Currently:** Driving mobile and backend development for the **EldersIndia app**, where I architect production React Native applications and secure REST APIs with Laravel. Outside of my primary role, I engineer independent AI-powered workflows—such as the OCR record extraction pipeline for Krisivikas—delivering measurable business impact through intelligent automation.
-**Currently:** Driving mobile and backend development for the **EldersIndia app**, where I architect production React Native applications and secure REST APIs with Laravel. Outside of my primary role, I engineer independent AI-powered workflows—such as the OCR record extraction pipeline for **KrishiVikas**—delivering measurable business impact through intelligent automation.
+**Currently:** Driving mobile and backend development for enterprise-scale applications, where I architect production React Native applications and secure REST APIs with Laravel. Outside of core engineering, I engineer independent AI-powered workflows—such as high-performance OCR record extraction pipelines—delivering measurable business impact through intelligent automation.
 
 ---
 
@@ -49,7 +48,7 @@ Git & GitHub • Razorpay Integration • Firebase • Next.js (App Router) • 
 
 ## 🚀 Select Achievements
 
-✨ **AI-Powered OCR Pipeline** — Engineered a high-performance extraction pipeline for **KrishiVikas** using Gemini and Qwen-VL to accurately process handwritten dairy ledgers, converting them into structured relational data. This automated a previously manual process, significantly improving data entry speed and accuracy.
+✨ **AI-Powered OCR Pipeline** — Engineered a high-performance extraction pipeline using Gemini and Qwen-VL to accurately process handwritten ledgers, converting them into structured relational data. This automated a previously manual process, significantly improving data entry speed and accuracy.
 
 🏗️ **Enterprise Mobile Platforms** — Architected and deployed scalable React Native applications serving thousands of active users, featuring seamless payment gateways and LMS.
 
