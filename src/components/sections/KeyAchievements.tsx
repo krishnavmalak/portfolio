@@ -7,7 +7,7 @@ const achievements = [
   {
     id: "ai-ocr",
     title: "AI-Powered OCR Pipeline",
-    description: "Engineered a high-performance AI extraction pipeline for Krisivikas using Gemini Vision and Qwen-VL to accurately read handwritten dairy ledgers and convert them into structured relational databases. Delivered intelligent automation reducing manual data entry workload.",
+    description: "Engineered a high-performance AI extraction pipeline using Gemini Vision and Qwen-VL to accurately read handwritten ledgers and convert them into structured relational databases. Delivered intelligent automation reducing manual data entry workload.",
     icon: <Brain className="w-6 h-6" />,
     color: "text-purple-600",
     bgColor: "bg-purple-100",
